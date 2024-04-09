@@ -1,0 +1,134 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap'); */
+
+:root {
+    --clor-primary-100: hsl(75, 94%, 57%);
+
+    --clor-neutral-100: hsl(0, 0%, 100%);
+    --clor-neutral-700: hsl(0, 0%, 20%);
+    --clor-neutral-800: hsl(0, 0%, 12%);
+    --clor-neutral-900: hsl(0, 0%, 8%);
+
+    --fs-body: 14px;
+    --fw-regular: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+}
+
+@font-face {
+    font-family: Inter;
+    src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+}
+
+body {
+    margin: 0;
+    background-color: var(--clor-neutral-900);
+    font-family: "Inter", sans-serif;    
+}
+
+/* some resets */
+
+h1, h2, p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a { text-decoration: none; }
+
+img { display: block; }
+
+/* some resets */
+
+
+.sl-comp {
+
+
+    box-sizing: border-box;
+    background-color: var(--clor-neutral-800);
+    border: 1px solid var(--clor-neutral-800);
+    color: var(--clor-neutral-100);
+    text-align: center;
+
+    width: 325px;
+
+    border-radius: 10px;
+    padding: 23px;
+
+}
+
+.sl-img, .sl-img > img {
+    width: 89px;
+    border-radius: 100%;
+}
+
+.sl-img {
+    margin-inline: auto;
+    margin-bottom: 20px;
+}
+
+.sl-comp > p {
+    font-size: var(--fs-body);
+}
+
+.sl-nm {
+    font-size: 24px;
+    font-weight: var(--fw-semibold);
+    margin-bottom: 10px;
+}
+
+.sl-lc {
+    color: var(--clor-primary-100);
+    font-weight: var(--fw-semibold);
+}
+
+.sl-bi {
+    margin-block: 24px;
+}
+
+.sl-link {
+    display: block;
+    background-color: var(--clor-neutral-700);
+    color: var(--clor-neutral-100);
+    border-radius: 8px;
+    font-size: var(--fs-body);
+    font-weight: var(--fw-semibold);
+    padding-block: 13px;
+    /* padding-inline: 20px; */
+}
+
+.sl-link:active {
+    background-color: var(--clor-primary-100);
+    color: var(--clor-neutral-700);
+}
+
+.sl-links-list li {
+    margin-block: 14px;
+}
+
+.sl-links-list li:first-child {
+    margin-block: 0;
+}
+.sl-links-list li:last-child {
+    margin-block: 0;
+}
+
+.center-x-y {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+@media only screen and (min-width: 500px) {
+    .sl-comp {
+        width: 383px;
+        padding: 39px;
+    }
+}
