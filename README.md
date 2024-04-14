@@ -21,3 +21,5 @@ I learned that if that if you don't set the border for the parent the child marg
 
 ### Useful resources
 - [child parent margin solution](https://www.geeksforgeeks.org/why-margin-on-child-element-moves-the-parent-element-in-css/) - This is where I learned about child parent margin problem
+
+[DEMO](https://wajidkhan2-frontendmentor-challenges.github.io/social-links-profile-main-fm-html-css/)
